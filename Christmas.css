@@ -1,0 +1,33 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+body{
+    background: url('https://i.pinimg.com/originals/18/89/7f/18897fe736e8151e91319ca4b190dad9.jpg');
+    background-repeat: no-repeat;
+    font-family: 'Mountains of Christmas', cursive;
+
+}
+#label{
+    font-size: 800%;
+    text-align: center;
+    visibility: hidden;
+    position: relative;
+    top: 300px;
+}
+#event{
+    font-size: 300%;
+    text-align: center;
+
+    
+}
+a{
+    text-decoration: none;
+    color: #454545;
+}
+#parents{
+    transition: all ease 2s 0s;
+}
+#parents:hover #label{
+visibility: visible;
+}
